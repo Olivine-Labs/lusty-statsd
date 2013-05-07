@@ -1,7 +1,7 @@
 lusty-statsd
 ============
 
-Version 0.1
+Version 0.2
 
 Log yo events to statsd
 
