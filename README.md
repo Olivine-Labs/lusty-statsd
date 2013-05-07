@@ -17,10 +17,10 @@ local config = {
   --...
   context = {
     ["lusty-statsd.context.statsd"] = {
-      host = "stats.mysite.com", #default = 127.0.0.1
-      port = 8125, # default = 8125,
-      namespace = "mysite.stats" # default = none,
-      predicate = function(context) end, # default = nil
+      host = "stats.mysite.com", -- default = 127.0.0.1
+      port = 8125, -- default = 8125,
+      namespace = "mysite.stats" -- default = none,
+      predicate = function(context) end -- default = nil
     }
   }
 }
