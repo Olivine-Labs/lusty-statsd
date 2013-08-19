@@ -1,8 +1,8 @@
 package = "lusty-statsd"
-version = "0.2-1"
+version = "0.3-0"
 source = {
-  url = "https://github.com/Olivine-Labs/lusty-statsd/archive/v0.2.tar.gz",
-  dir = "lusty-statsd-0.2"
+  url = "https://github.com/Olivine-Labs/lusty-statsd/archive/v0.3.tar.gz",
+  dir = "lusty-statsd-0.3"
 }
 description = {
   summary = "Statsd interface for lusty.",
