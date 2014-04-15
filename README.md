@@ -27,13 +27,13 @@ local config = {
 ```
 
 ```lua
-context.statsd.gauge("users", #my_users_table)
-context.statsd.counter("events", 5)
-context.statsd.increment("events", 1)
-context.statsd.decrement("events", 3)
-context.statsd.timer("page_render", 105)
-context.statsd.histogram("page_render_time", 105)
-context.statsd.meter("page_load", 1)
+context.statsd:gauge("users", #my_users_table)
+context.statsd:counter("events", 5)
+context.statsd:increment("events", 1)
+context.statsd:decrement("events", 3)
+context.statsd:timer("page_render", 105)
+context.statsd:histogram("page_render_time", 105)
+context.statsd:meter("page_load", 1)
 ```
 
 
